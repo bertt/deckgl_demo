@@ -8,7 +8,7 @@ import {TerrainLayer, TerrainLayerProps} from '@deck.gl/geo-layers';
 import type {MapViewState} from '@deck.gl/core';
 
 // const maptilerkey = 'NEeAOMvTyhTAwYbN30uo';
-const MAPBOX_TOKEN  = `pk.eyJ1IjoiYmVydHQiLCJhIjoiY2xsN3JrZ2p2MTR5NTNkbWtobDlqYXU3MyJ9.Rz_sNO5nv017M7K2nSBVFA`;
+const MAPBOX_TOKEN  = `pk.eyJ1IjoiYmVydHRlbW1lIiwiYSI6ImNtMXl5OWtqdDAxNXkya3Nkc2ZmNGd6N2kifQ.6LmbPHeqaga7KFwa8frfnA`;
 const TILESET_URL = `https://geodan.github.io/pg2b3dm/sample_data/3dbag/sibbe/1.0/tileset.json`;
 const INITIAL_VIEW_STATE: MapViewState = {
   latitude: 50.843332,
