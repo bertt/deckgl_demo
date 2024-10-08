@@ -1,0 +1,49 @@
+{
+  "name": "@deck.gl/react",
+  "description": "React Components for deck.gl",
+  "license": "MIT",
+  "type": "module",
+  "version": "9.0.6",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "webgl",
+    "visualization",
+    "overlay",
+    "layer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visgl/deck.gl.git"
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "typed"
+  ],
+  "sideEffects": false,
+  "scripts": {},
+  "peerDependencies": {
+    "@deck.gl/core": "^9.0.0",
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "gitHead": "fdbf68be3761c1a7e4bf5d2c6b20792fd8796937"
+}
